@@ -11,6 +11,9 @@ package com.mycompany.prjclasses;
 public class PrjClasses {
 
     public static void main(String[] args) {
-        System.out.println("this is hond kak!");
+       newClass nc = new newClass ();
+       nc.helloClass();
+        
+       System.out.println(nc.strSecondClassVar);
     }
 }
